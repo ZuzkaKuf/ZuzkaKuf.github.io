@@ -1,0 +1,84 @@
+html {
+  display: block;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  font-size: 16px;
+  text-align: left;
+}
+#home {
+  background-image: url(https://hejnadavid.cz/projects/zkouska/img/main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 750px;
+}
+#header {
+  color: #fff;
+}
+.navbar {
+  font-weight: 150;
+  font-size: 16px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+.navbar-expand-md {
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+}
+.odstavec1 {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+.bi-chevron-left::before {
+  content: "\f284";
+}
+.bi-chevron-right::before {
+  content: "\f285";
+}
+.dropdown-toggle::after {
+  content: "";
+  display: inline-block;
+  margin-left: 0.2em;
+}
+.bi-facebook::before {
+  content: "\f344";
+}
+.bi-twitter::before {
+  content: "\f5ef";
+}
+.bi-instagram::before {
+  content: "\f437";
+}
+.bi-telephone::before {
+  content: "\f5b8";
+}
+.bi-email::before {
+  content: "\f73d";
+}
+.bi-street::before {
+  content: "\f546";
+}
+.bi-city::before {
+  content: "\f3cc";
+}
+
